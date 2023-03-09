@@ -8,6 +8,10 @@ import random
 from tqdm import tqdm
 
 
+
+# Recognizing Textual Entailment dataset : https://gluebenchmark.com/tasks
+
+
 class BERTDataset(Dataset):
     def __init__(self,args,mode='train',remove_pkl=False):
 
